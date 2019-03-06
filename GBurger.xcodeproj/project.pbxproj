@@ -12,6 +12,12 @@
 		BB2CBD78222F6FE8007B2A73 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CBD77222F6FE8007B2A73 /* MenuCell.swift */; };
 		BB2CBD7A222F7E18007B2A73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CBD79222F7E18007B2A73 /* HomeViewController.swift */; };
 		BB9EF03D222FC952008E4102 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF03C222FC952008E4102 /* HomeCell.swift */; };
+		BB9EF05D222FD82B008E4102 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF05C222FD82B008E4102 /* AccountViewController.swift */; };
+		BB9EF05F222FDBEB008E4102 /* BugerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF05E222FDBEB008E4102 /* BugerStore.swift */; };
+		BB9EF06122300F37008E4102 /* BurgerMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06022300F37008E4102 /* BurgerMenuCell.swift */; };
+		BB9EF065223016C1008E4102 /* BurgerShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF064223016C1008E4102 /* BurgerShowCell.swift */; };
+		BB9EF06722301756008E4102 /* BurgerShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06622301756008E4102 /* BurgerShowViewController.swift */; };
+		BB9EF06922301F3F008E4102 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */; };
 		BBC40E4B222CFB61008B269B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40E4A222CFB61008B269B /* AppDelegate.swift */; };
 		BBC40E50222CFB61008B269B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC40E4E222CFB61008B269B /* Main.storyboard */; };
 		BBC40E52222CFB62008B269B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC40E51222CFB62008B269B /* Assets.xcassets */; };
@@ -24,6 +30,12 @@
 		BB2CBD77222F6FE8007B2A73 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		BB2CBD79222F7E18007B2A73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BB9EF03C222FC952008E4102 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		BB9EF05C222FD82B008E4102 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		BB9EF05E222FDBEB008E4102 /* BugerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugerStore.swift; sourceTree = "<group>"; };
+		BB9EF06022300F37008E4102 /* BurgerMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerMenuCell.swift; sourceTree = "<group>"; };
+		BB9EF064223016C1008E4102 /* BurgerShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShowCell.swift; sourceTree = "<group>"; };
+		BB9EF06622301756008E4102 /* BurgerShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShowViewController.swift; sourceTree = "<group>"; };
+		BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 		BBC40E47222CFB61008B269B /* GBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC40E4A222CFB61008B269B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC40E4F222CFB61008B269B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +100,9 @@
 			children = (
 				BB2CBD6C222F690B007B2A73 /* TopMenuViewController.swift */,
 				BB2CBD79222F7E18007B2A73 /* HomeViewController.swift */,
+				BB9EF05C222FD82B008E4102 /* AccountViewController.swift */,
+				BB9EF06622301756008E4102 /* BurgerShowViewController.swift */,
+				BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,6 +110,7 @@
 		BBC40E5D222D0017008B269B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB9EF05E222FDBEB008E4102 /* BugerStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +120,8 @@
 			children = (
 				BB2CBD77222F6FE8007B2A73 /* MenuCell.swift */,
 				BB9EF03C222FC952008E4102 /* HomeCell.swift */,
+				BB9EF06022300F37008E4102 /* BurgerMenuCell.swift */,
+				BB9EF064223016C1008E4102 /* BurgerShowCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,10 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9EF06722301756008E4102 /* BurgerShowViewController.swift in Sources */,
 				BB2CBD78222F6FE8007B2A73 /* MenuCell.swift in Sources */,
 				BBC40E4B222CFB61008B269B /* AppDelegate.swift in Sources */,
+				BB9EF06922301F3F008E4102 /* InfoTableViewController.swift in Sources */,
+				BB9EF06122300F37008E4102 /* BurgerMenuCell.swift in Sources */,
+				BB9EF065223016C1008E4102 /* BurgerShowCell.swift in Sources */,
+				BB9EF05D222FD82B008E4102 /* AccountViewController.swift in Sources */,
 				BB2CBD74222F6DD9007B2A73 /* Color.swift in Sources */,
 				BB2CBD6D222F690B007B2A73 /* TopMenuViewController.swift in Sources */,
+				BB9EF05F222FDBEB008E4102 /* BugerStore.swift in Sources */,
 				BB9EF03D222FC952008E4102 /* HomeCell.swift in Sources */,
 				BB2CBD7A222F7E18007B2A73 /* HomeViewController.swift in Sources */,
 			);
