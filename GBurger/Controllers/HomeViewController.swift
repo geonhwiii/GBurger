@@ -12,6 +12,8 @@ class HomeViewController: UIViewController {
    
    let cellId = "collectionCell"
    let cellImageName: [String] = ["burger1", "first", "second", "third"]
+   let storeDetailViewController = StoreDetailViewController()
+   
    @IBOutlet weak var collectionView: UICollectionView!
    
    override func viewDidLoad() {
@@ -25,7 +27,6 @@ class HomeViewController: UIViewController {
       navigationController?.hidesBarsOnSwipe = true
       
    }
-   
 }
 
 extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -36,7 +37,6 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
    
    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! HomeCell
-      
       cell.cellImageView.image = UIImage(named: cellImageName[indexPath.item])
       
       return cell
@@ -50,6 +50,8 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
       return 10
    }
    
-   
+   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      
+   }
    
 }

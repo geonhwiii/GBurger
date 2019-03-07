@@ -18,6 +18,15 @@
 		BB9EF065223016C1008E4102 /* BurgerShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF064223016C1008E4102 /* BurgerShowCell.swift */; };
 		BB9EF06722301756008E4102 /* BurgerShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06622301756008E4102 /* BurgerShowViewController.swift */; };
 		BB9EF06922301F3F008E4102 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */; };
+		BB9EF06B2230ADB3008E4102 /* BurgerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06A2230ADB3008E4102 /* BurgerDetailViewController.swift */; };
+		BB9EF06D2230D23D008E4102 /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF06C2230D23D008E4102 /* StoreDetailViewController.swift */; };
+		BB9EF0B62230EB46008E4102 /* BurgerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0B52230EB46008E4102 /* BurgerManager.swift */; };
+		BB9EF0BC22310400008E4102 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0BB22310400008E4102 /* ListTableViewController.swift */; };
+		BB9EF0C622311128008E4102 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0C522311128008E4102 /* AddViewController.swift */; };
+		BB9EF0C822311159008E4102 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0C722311159008E4102 /* ListData.swift */; };
+		BB9EF0CA22311C0C008E4102 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0C922311C0C008E4102 /* ListCell.swift */; };
+		BB9EF0CF22312FEB008E4102 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0CD22312FEB008E4102 /* DataModel.xcdatamodeld */; };
+		BB9EF0D12231318F008E4102 /* ListDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EF0D02231318F008E4102 /* ListDAO.swift */; };
 		BBC40E4B222CFB61008B269B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC40E4A222CFB61008B269B /* AppDelegate.swift */; };
 		BBC40E50222CFB61008B269B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC40E4E222CFB61008B269B /* Main.storyboard */; };
 		BBC40E52222CFB62008B269B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC40E51222CFB62008B269B /* Assets.xcassets */; };
@@ -36,6 +45,15 @@
 		BB9EF064223016C1008E4102 /* BurgerShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShowCell.swift; sourceTree = "<group>"; };
 		BB9EF06622301756008E4102 /* BurgerShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerShowViewController.swift; sourceTree = "<group>"; };
 		BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		BB9EF06A2230ADB3008E4102 /* BurgerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerDetailViewController.swift; sourceTree = "<group>"; };
+		BB9EF06C2230D23D008E4102 /* StoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
+		BB9EF0B52230EB46008E4102 /* BurgerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerManager.swift; sourceTree = "<group>"; };
+		BB9EF0BB22310400008E4102 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BB9EF0C522311128008E4102 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BB9EF0C722311159008E4102 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		BB9EF0C922311C0C008E4102 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		BB9EF0CE22312FEB008E4102 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		BB9EF0D02231318F008E4102 /* ListDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDAO.swift; sourceTree = "<group>"; };
 		BBC40E47222CFB61008B269B /* GBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC40E4A222CFB61008B269B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC40E4F222CFB61008B269B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,8 +77,45 @@
 			isa = PBXGroup;
 			children = (
 				BB2CBD73222F6DD9007B2A73 /* Color.swift */,
+				BB9EF0CD22312FEB008E4102 /* DataModel.xcdatamodeld */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		BB9EF0B7223103B9008E4102 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EF0BA223103CF008E4102 /* Views */,
+				BB9EF0B9223103C9008E4102 /* Model */,
+				BB9EF0B8223103C3008E4102 /* Controllers */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		BB9EF0B8223103C3008E4102 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EF0BB22310400008E4102 /* ListTableViewController.swift */,
+				BB9EF0C522311128008E4102 /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB9EF0B9223103C9008E4102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EF0C722311159008E4102 /* ListData.swift */,
+				BB9EF0D02231318F008E4102 /* ListDAO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB9EF0BA223103CF008E4102 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EF0C922311C0C008E4102 /* ListCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BBC40E3E222CFB61008B269B = {
@@ -82,10 +137,11 @@
 		BBC40E49222CFB61008B269B /* GBurger */ = {
 			isa = PBXGroup;
 			children = (
-				BB2CBD72222F6DCF007B2A73 /* Support */,
+				BB9EF0B7223103B9008E4102 /* Favorite */,
 				BBC40E5E222D001E008B269B /* Views */,
 				BBC40E5D222D0017008B269B /* Model */,
 				BBC40E5C222D0010008B269B /* Controllers */,
+				BB2CBD72222F6DCF007B2A73 /* Support */,
 				BBC40E4A222CFB61008B269B /* AppDelegate.swift */,
 				BBC40E4E222CFB61008B269B /* Main.storyboard */,
 				BBC40E51222CFB62008B269B /* Assets.xcassets */,
@@ -103,6 +159,8 @@
 				BB9EF05C222FD82B008E4102 /* AccountViewController.swift */,
 				BB9EF06622301756008E4102 /* BurgerShowViewController.swift */,
 				BB9EF06822301F3F008E4102 /* InfoTableViewController.swift */,
+				BB9EF06A2230ADB3008E4102 /* BurgerDetailViewController.swift */,
+				BB9EF06C2230D23D008E4102 /* StoreDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -111,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				BB9EF05E222FDBEB008E4102 /* BugerStore.swift */,
+				BB9EF0B52230EB46008E4102 /* BurgerManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,17 +257,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9EF06722301756008E4102 /* BurgerShowViewController.swift in Sources */,
+				BB9EF0C822311159008E4102 /* ListData.swift in Sources */,
 				BB2CBD78222F6FE8007B2A73 /* MenuCell.swift in Sources */,
+				BB9EF0CF22312FEB008E4102 /* DataModel.xcdatamodeld in Sources */,
+				BB9EF0D12231318F008E4102 /* ListDAO.swift in Sources */,
+				BB9EF0CA22311C0C008E4102 /* ListCell.swift in Sources */,
+				BB9EF06B2230ADB3008E4102 /* BurgerDetailViewController.swift in Sources */,
 				BBC40E4B222CFB61008B269B /* AppDelegate.swift in Sources */,
 				BB9EF06922301F3F008E4102 /* InfoTableViewController.swift in Sources */,
+				BB9EF06D2230D23D008E4102 /* StoreDetailViewController.swift in Sources */,
 				BB9EF06122300F37008E4102 /* BurgerMenuCell.swift in Sources */,
+				BB9EF0C622311128008E4102 /* AddViewController.swift in Sources */,
 				BB9EF065223016C1008E4102 /* BurgerShowCell.swift in Sources */,
 				BB9EF05D222FD82B008E4102 /* AccountViewController.swift in Sources */,
 				BB2CBD74222F6DD9007B2A73 /* Color.swift in Sources */,
 				BB2CBD6D222F690B007B2A73 /* TopMenuViewController.swift in Sources */,
+				BB9EF0BC22310400008E4102 /* ListTableViewController.swift in Sources */,
 				BB9EF05F222FDBEB008E4102 /* BugerStore.swift in Sources */,
 				BB9EF03D222FC952008E4102 /* HomeCell.swift in Sources */,
 				BB2CBD7A222F7E18007B2A73 /* HomeViewController.swift in Sources */,
+				BB9EF0B62230EB46008E4102 /* BurgerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +476,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB9EF0CD22312FEB008E4102 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB9EF0CE22312FEB008E4102 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = BB9EF0CE22312FEB008E4102 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BBC40E3F222CFB61008B269B /* Project object */;
 }

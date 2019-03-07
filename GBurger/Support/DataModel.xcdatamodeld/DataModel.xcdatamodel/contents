@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C52a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ListData" representedClassName="ListDataMO" syncable="YES" codeGenerationType="class">
+        <attribute name="burgerImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="burgerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ListData" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
